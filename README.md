@@ -1,4 +1,4 @@
-# DACST
+# DAVST, a Docker Application Visual Scripting Tool
 
 Insert screenshot here.
 
