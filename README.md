@@ -72,9 +72,9 @@ _Reference:_
 
 The compose-file format tried to address the dependency between services, resulting on different approaches between the different versions (1, 2 and 3 at present time).
 
-> depends_on does not wait for db and redis to be “ready” before starting web - only until they have been started. If you need to wait for a service to be ready, see Controlling startup order for more on this problem and strategies for solving it.
-> Version 3 no longer supports the condition form of depends_on.
-> The depends_on option is ignored when deploying a stack in swarm mode with a version 3 Compose file.
+> - `depends_on` does not wait for db and redis to be “ready” before starting web - only until they have been started. If you need to wait for a service to be ready, see Controlling startup order for more on this problem and strategies for solving it.
+> - Version 3 no longer supports the condition form of depends_on.
+> - The depends_on option is ignored when deploying a stack in swarm mode with a version 3 Compose file.
 
 This project will try to provide built-in `blocks` to represent dependencies between services, e.g.
 
