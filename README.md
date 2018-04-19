@@ -2,6 +2,16 @@
 
 Insert screenshot here.
 
+## Usage
+
+1. Install dependencies
+
+   `npm install`
+
+2. Run the application
+
+   `npm run dev`
+
 ## Abstract
 
 At the current stage of Docker, "compose files" are used to descriped a stack (multiple containers working together to provide an application). Compose file are YAML-based files, presenting the different services used by the application.
